@@ -1,0 +1,23 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: BillyGalbreath <Blake.Galbreath@GMail.com>
+Date: Sun, 18 Jun 2017 18:17:05 -0500
+Subject: [PATCH] Entity#fromMobSpawner()
+
+
+diff --git a/src/main/java/org/bukkit/entity/Entity.java b/src/main/java/org/bukkit/entity/Entity.java
+index b0967614bfdba06b5e11c910186aa66ac7e2d503..b422a949b22edf412b518abb3e5ca0847c73d36b 100644
+--- a/src/main/java/org/bukkit/entity/Entity.java
++++ b/src/main/java/org/bukkit/entity/Entity.java
+@@ -790,5 +790,12 @@ public interface Entity extends Metadatable, CommandSender, Nameable, Persistent
+      */
+     @Nullable
+     Location getOrigin();
++
++    /**
++     * Returns whether this entity was spawned from a mob spawner.
++     *
++     * @return True if entity spawned from a mob spawner
++     */
++    boolean fromMobSpawner();
+     // Paper end
+ }
