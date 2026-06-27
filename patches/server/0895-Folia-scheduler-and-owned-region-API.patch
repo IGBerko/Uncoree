@@ -1148,7 +1148,7 @@ index 0000000000000000000000000000000000000000..d306f911757a4d556c82c0070d4837db
 +    }
 +}
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index bfee202e1dc8ea875b9d2b4e8c3b0be3f6d94b26..28645a835a169029b734262a9f42751caa52c4c9 100644
+index a540c744ca88884207c4520794091c01c1c9f50e..882b6effa39b62172914b41af54e54c2890480fb 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1497,6 +1497,20 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -1173,7 +1173,7 @@ index bfee202e1dc8ea875b9d2b4e8c3b0be3f6d94b26..28645a835a169029b734262a9f42751c
          this.profiler.push("commandFunctions");
          MinecraftTimings.commandFunctionsTimer.startTiming(); // Spigot // Paper
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 0747b0042446271385371f1ca9c8fefdebd851b8..fade1e36037075aae968eb90bbfeac76bfed496a 100644
+index 845ef4f943be97fbf6bf4f74d966716143d981e0..41133fe4a85fd4960c89e6c3df7d9065ba4cf02a 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -648,6 +648,7 @@ public abstract class PlayerList {

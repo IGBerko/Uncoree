@@ -19,7 +19,7 @@ index 49028463ba47e760281545c2f7597e3db8d6c453..7620c72a4c243cbeea245203ce03a97c
              }
              final Object val = config.get(key);
 diff --git a/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java b/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
-index a6d5b3fa7e3437e0aec54eec4079e9f3267c64b8..567103d635087bf894a8c0473baf03bdb5ff052f 100644
+index edd968686292237e95afdf99a291f501386144ef..d09d5192f0a571e9758e95dd5e1392a9caa88bde 100644
 --- a/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
 +++ b/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
 @@ -431,7 +431,14 @@ public abstract class ChunkGenerator {

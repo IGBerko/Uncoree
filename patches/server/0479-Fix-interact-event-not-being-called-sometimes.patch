@@ -11,7 +11,7 @@ Subject: [PATCH] Fix interact event not being called sometimes
 Co-authored-by: Moulberry <james.jenour@protonmail.com>
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 5190939658fce990e166b7c4f5998dd030a156e8..e5113e86836f9c21570705b1ad312d76e8162e5f 100644
+index f66c6167f24941b9cfdf4479d6cfbffcc29a7ba6..a16751a23eb6aab8c25520127d4dbea0c991c32c 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1760,7 +1760,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

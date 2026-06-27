@@ -11,7 +11,7 @@ more than one Netty IO thread.
 Fixes https://github.com/PaperMC/Folia/issues/11
 
 diff --git a/src/main/java/net/minecraft/resources/RegistryOps.java b/src/main/java/net/minecraft/resources/RegistryOps.java
-index 3dc8333a5c17926679c79d5294a0e72199801c34..fafecd2f5aefd5e6fdc2b0c3674378f03f4dc4f2 100644
+index 0272fe45449785e8589b6e42fa454f2abfcc0476..dd8a6bd463e5c8fe69271663cb46b45b201ba59c 100644
 --- a/src/main/java/net/minecraft/resources/RegistryOps.java
 +++ b/src/main/java/net/minecraft/resources/RegistryOps.java
 @@ -19,7 +19,10 @@ public class RegistryOps<T> extends DelegatingOps<T> {

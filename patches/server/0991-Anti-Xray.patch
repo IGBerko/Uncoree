@@ -1155,7 +1155,7 @@ index 9baae5af750b46ededbd660d15934da71befde72..8a360bf585041af8cd74dbb38d3c888c
          if (io.papermc.paper.event.packet.PlayerChunkLoadEvent.getHandlerList().getRegisteredListeners().length > 0) {
              new io.papermc.paper.event.packet.PlayerChunkLoadEvent(new org.bukkit.craftbukkit.CraftChunk(chunk), handler.getPlayer().getBukkitEntity()).callEvent();
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 8a5f245fc98514b66216dde234650bfc0adc24b4..461c27292af06a5150de8ec263d0c8527e8c5278 100644
+index 1419228ac61903365f39ecdf530e7090cb11ca7f..bdc6a121f8af68d50cd79cb3f44ade454e4960cb 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -419,7 +419,7 @@ public abstract class PlayerList {

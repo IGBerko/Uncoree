@@ -5,7 +5,7 @@ Subject: [PATCH] PlayerElytraBoostEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/item/FireworkRocketItem.java b/src/main/java/net/minecraft/world/item/FireworkRocketItem.java
-index 7c627d27300247db9122ab2081049345ef306073..4565cf51ee2f973b368a984436c02220ed9f4a70 100644
+index 3749cfca8f007973d1a2206d8f2ba15283a550e1..a9f82e37c088c6f6ae2a049fcc7acea01b8802cd 100644
 --- a/src/main/java/net/minecraft/world/item/FireworkRocketItem.java
 +++ b/src/main/java/net/minecraft/world/item/FireworkRocketItem.java
 @@ -68,12 +68,19 @@ public class FireworkRocketItem extends Item {

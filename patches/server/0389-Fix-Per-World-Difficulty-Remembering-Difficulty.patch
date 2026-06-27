@@ -8,7 +8,7 @@ makes it so that the server keeps the last difficulty used instead
 of restoring the server.properties every single load.
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index af68110105a9a3ec0ebd31ea9733af8dfed1037b..0c0356339abbf255a411993b9bd3e09d31cf2636 100644
+index 8922598a66aa184c314595fe9c8ec62797caa052..adc93e0e7a57907e824bdd8bb7b3012f28b515f4 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -825,7 +825,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -89,7 +89,7 @@ index b64b20312396638b8fd596bca3794863601d2bb4..8729fb23a7d7700fbccba03d07382091
  
                  playerlist.sendPlayerPermissionLevel(this);
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index d78d411879275f11f395b4f9c94b7aab88342236..67e75982d712fdd2f751f2a0fcafba7aec779d74 100644
+index 2abd6e356eba3eef021a447d1fc03fcec36846e8..782ac9d9284bce9b91e03488756b31a255655edc 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -3169,7 +3169,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

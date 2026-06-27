@@ -483,7 +483,7 @@ index a9a0248b1bd1ac454064e977b61f9b7d80962ff8..6f2452de76e8f5fcc1367066e0e75374
          this.exception = cause;
          this.systemReport.setDetail("CraftBukkit Information", new org.bukkit.craftbukkit.CraftCrashReport()); // CraftBukkit
 diff --git a/src/main/java/net/minecraft/CrashReportCategory.java b/src/main/java/net/minecraft/CrashReportCategory.java
-index 91073d755f78bb427cd4b72c21ca0de5d12ec6b1..d0679882606bc84cb2a4abb69022d94caeee86ef 100644
+index f367ba058018074bfe6e4fe88bcc875ea9794d9e..2176171954609fd88f97f93408e14e018c1d6eaa 100644
 --- a/src/main/java/net/minecraft/CrashReportCategory.java
 +++ b/src/main/java/net/minecraft/CrashReportCategory.java
 @@ -110,6 +110,7 @@ public class CrashReportCategory {
@@ -525,7 +525,7 @@ index 7648b889bc488197f32545e8c3671a54102c01ec..44e62675a2d612a8d727d9ce6db5fb85
  
      protected void channelRead0(ChannelHandlerContext channelhandlercontext, Packet<?> packet) {
 diff --git a/src/main/java/net/minecraft/network/PacketEncoder.java b/src/main/java/net/minecraft/network/PacketEncoder.java
-index 061eada043325142d33a0cec02e9e484d14a7fca..96d5448019d53ac3575e209c1c5c223a62a2638d 100644
+index 3fe047a6ea4eedb92a795dc747d30c0815c2baf2..f396ca17e65138f5d128490b05bcd2f9c1d46ef5 100644
 --- a/src/main/java/net/minecraft/network/PacketEncoder.java
 +++ b/src/main/java/net/minecraft/network/PacketEncoder.java
 @@ -47,7 +47,14 @@ public class PacketEncoder extends MessageToByteEncoder<Packet<?>> {

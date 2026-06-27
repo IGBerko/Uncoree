@@ -5,7 +5,7 @@ Subject: [PATCH] forced whitelist: use configurable kick message
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 4416feb73fd800787db65f5841eb92b1b29cddb0..c9545f96317fd6692889d82851d76084efa6a61d 100644
+index a596b3e52e902ed01a526aa9961910d8a3cc2e2d..d972e82ce41ec0c1ff4f9c55646ed3c21c6381d2 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -2167,7 +2167,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

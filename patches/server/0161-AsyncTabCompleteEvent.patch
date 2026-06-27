@@ -16,7 +16,7 @@ Also adds isCommand and getLocation to the sync TabCompleteEvent
 Co-authored-by: Aikar <aikar@aikar.co>
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index fa8db93541dc62dc61bccc53c1aaeb3666d80ee1..5d4730b9ced378c1e77d7734f2f8aba6d09a19d0 100644
+index ff113cb3c11492ec09e0568f96fff40cbcd53716..8eec3d8b1693d9f9d7d882275e6f00cef4d3520f 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -688,21 +688,58 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

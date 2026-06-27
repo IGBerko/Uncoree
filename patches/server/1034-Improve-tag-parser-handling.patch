@@ -169,7 +169,7 @@ index a5e438a834826161c52ca9db57d234d9ff80a591..4766994cce060564370b0d24836a7da8
  
      @Override
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 98496bcc7ab9adde3fdc8b2cd9eaeceee99e28b4..860d33ac56680babd87358b1d7d2216dac3f7865 100644
+index b8db3c3a5870e9d7dbba38caf7c9e1c1f3849bde..2ad17823bf442ce0455227b64e5d3bb10d0ee2c1 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -777,6 +777,13 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

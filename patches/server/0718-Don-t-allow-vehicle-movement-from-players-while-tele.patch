@@ -7,7 +7,7 @@ Bring the vehicle move packet behavior in line with the
 regular player move packet.
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index cf173a2315f3a97a89dc2aabe81be285abe73603..53a0ad0125e947537ed537b627d1b02c27f0a63d 100644
+index 7127c6f163cc00eb439eb37665df3e1a4bf27cc2..47d47d1979ca543679884e256dc805d2362d619d 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -464,6 +464,11 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

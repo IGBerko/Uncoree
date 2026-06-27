@@ -20,7 +20,7 @@ seeds/salts to the frequency reducer which has a similar effect.
 Co-authored-by: William Blake Galbreath <blake.galbreath@gmail.com>
 
 diff --git a/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java b/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
-index 567103d635087bf894a8c0473baf03bdb5ff052f..f767c822a8e86ce689d40d12c4ef2db3829a97cc 100644
+index d09d5192f0a571e9758e95dd5e1392a9caa88bde..a7ac9a0c4966c2f9d2b325fa59e8792850d376e8 100644
 --- a/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
 +++ b/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
 @@ -568,7 +568,7 @@ public abstract class ChunkGenerator {

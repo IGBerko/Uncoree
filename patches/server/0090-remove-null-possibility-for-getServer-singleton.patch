@@ -6,7 +6,7 @@ Subject: [PATCH] remove null possibility for getServer singleton
 to stop IDE complaining about potential NPE
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 677ce578af9da4b512bad47fe54625305e99c7e4..20ee0fd8f5a808436fae60b64fc3e8966146ba71 100644
+index e6f1a98d4239318944e1ed6128cf8493c795602b..7c403b67179fafe2aeb0f622a63c010bfa742781 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -190,6 +190,7 @@ import co.aikar.timings.MinecraftTimings; // Paper

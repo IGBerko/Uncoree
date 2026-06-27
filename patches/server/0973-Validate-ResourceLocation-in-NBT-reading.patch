@@ -72,7 +72,7 @@ index bb52d084637c97d9cc1ebaeec28358a0ddb3952b..40e21effc948b02874a6ed1d1c340c4d
  
          if (nbt.contains("Brain", 10)) {
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index 544e22f569d7ddeb1ba46a9ef7f4d4d6ca37c431..d2f5d959d3b67f7c20d0c0de462a18d667f3a84b 100644
+index f7818fd5e59784554732c39ef5c56461ea0d62c4..11c933a662c2275e2ef239cb0b5dd2480cc55490 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -608,7 +608,7 @@ public abstract class Mob extends LivingEntity implements Targeting {

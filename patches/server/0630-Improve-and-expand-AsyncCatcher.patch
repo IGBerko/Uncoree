@@ -17,7 +17,7 @@ Async catch modifications to critical entity state
 Co-authored-by: Jake Potrebic <jake.m.potrebic@gmail.com>
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 2941445ea453e2fb88ea8de38c24bf755b93936a..666c6cb6f600973e1d84839aed715606279d4630 100644
+index 574efd531199332a36fb26c70cc44bd5a05ff37d..7efe0cc24590966075ae84d19c3899a43f9adc2a 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1570,6 +1570,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

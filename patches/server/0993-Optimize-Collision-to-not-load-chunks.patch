@@ -14,7 +14,7 @@ movement will load only the chunk the player enters anyways and avoids loading
 massive amounts of surrounding chunks due to large AABB lookups.
 
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 461c27292af06a5150de8ec263d0c8527e8c5278..37245ff682837e7e8c9647f4afe30f0dd87cb384 100644
+index bdc6a121f8af68d50cd79cb3f44ade454e4960cb..856d59a64433abcd8aea8a1a613c7fcda83dd3ab 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -935,6 +935,7 @@ public abstract class PlayerList {

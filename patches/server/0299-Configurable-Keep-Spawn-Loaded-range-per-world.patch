@@ -6,7 +6,7 @@ Subject: [PATCH] Configurable Keep Spawn Loaded range per world
 This lets you disable it for some worlds and lower it for others.
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 21baf9139a652f21af81e775c4a0cfd3f2a81923..46386befc7c76788bdd136f7d7b4eb8e1e5d19b9 100644
+index 176378ddbf21d758694e8e624cc6c555c78e0fab..6342b7a3c4ccad528f026384da64e973e630f030 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -768,30 +768,33 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

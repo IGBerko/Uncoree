@@ -8,7 +8,7 @@ the updates per world, so that we can re-use the same packet
 object for every player unless they have per-player time enabled.
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 3ccd1178f0db9301fe87afb8a0d996c0acfc1b16..4cacf5cc0750f017824e9d8737d3c490324b49dd 100644
+index dd2cbb4d3bda6776e94279513b8d58d20661a8aa..01acf93115db41212adf703d44481f50c746a8fa 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1478,12 +1478,24 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

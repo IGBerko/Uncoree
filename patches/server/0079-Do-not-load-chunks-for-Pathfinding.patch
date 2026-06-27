@@ -5,7 +5,7 @@ Subject: [PATCH] Do not load chunks for Pathfinding
 
 
 diff --git a/src/main/java/net/minecraft/world/level/pathfinder/WalkNodeEvaluator.java b/src/main/java/net/minecraft/world/level/pathfinder/WalkNodeEvaluator.java
-index 79baaf943a01912c423823e1c153c062d5316232..9e51dcaae00967bcfd30615b1d978c333fafaa8f 100644
+index 13840b12e209b62783206861b817d433eedd6191..b125b9903454891e22a15a0a794d67be67fdb083 100644
 --- a/src/main/java/net/minecraft/world/level/pathfinder/WalkNodeEvaluator.java
 +++ b/src/main/java/net/minecraft/world/level/pathfinder/WalkNodeEvaluator.java
 @@ -469,7 +469,12 @@ public class WalkNodeEvaluator extends NodeEvaluator {

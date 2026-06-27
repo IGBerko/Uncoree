@@ -5,7 +5,7 @@ Subject: [PATCH] Add missing SpigotConfig logCommands check
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 45a68beff0c97ead5e9f1201b5fb9ef80c08b92b..994787f52ce9eb0b77889ed9bc8021183fa0cb7c 100644
+index dd7f0aed33183dd51e3378d2430df4f7c96ae730..5f1c31323d58cdc4419cf5f8870a8acf121c7669 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -2060,7 +2060,9 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

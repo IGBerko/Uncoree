@@ -14,7 +14,7 @@ ensure that the returned found structure (which may for example be a buried
 treasure that will be marked on a treasure map) is the same as in vanilla.
 
 diff --git a/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java b/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
-index f767c822a8e86ce689d40d12c4ef2db3829a97cc..b26a4eb4951e87f891b59028d98b8ffba8e103a8 100644
+index a7ac9a0c4966c2f9d2b325fa59e8792850d376e8..84a2a5384a8a31eff5363e6391c9a5187212ff36 100644
 --- a/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
 +++ b/src/main/java/net/minecraft/world/level/chunk/ChunkGenerator.java
 @@ -260,12 +260,15 @@ public abstract class ChunkGenerator {

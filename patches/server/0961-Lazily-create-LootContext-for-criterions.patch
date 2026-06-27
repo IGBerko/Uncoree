@@ -8,7 +8,7 @@ For each player on each tick, enter block triggers are invoked, and these create
 To avoid this, we now lazily create the LootContext if the criterion passes the predicate AND if any of the listener triggers require a loot context instance
 
 diff --git a/src/main/java/net/minecraft/advancements/critereon/SimpleCriterionTrigger.java b/src/main/java/net/minecraft/advancements/critereon/SimpleCriterionTrigger.java
-index 795d1f3e6065baee4cadf71ae0eeabfa5522199b..557de599b3496105b572bebb86313e3441947bae 100644
+index f43053ba082f9772b6ec02828fa2d6f387c32d26..35772110e9318df46a2729dbc0b5879b290011b7 100644
 --- a/src/main/java/net/minecraft/advancements/critereon/SimpleCriterionTrigger.java
 +++ b/src/main/java/net/minecraft/advancements/critereon/SimpleCriterionTrigger.java
 @@ -42,14 +42,14 @@ public abstract class SimpleCriterionTrigger<T extends SimpleCriterionTrigger.Si

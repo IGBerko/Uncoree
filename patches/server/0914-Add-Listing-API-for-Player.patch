@@ -83,7 +83,7 @@ index 754a2a5e958a04b3f8bf216b6022f547aa1cd36f..d41fe931daf03c40ca1d7b9159001d01
  
      static class EntryBuilder {
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index bc0e9fb41fe22e0a603837fcbdd82134f51d21d9..d38fe02af4cc35ed5b22acec41bedb76151f8af5 100644
+index 1ea044eb77a4b67b5b0e5d47c23505a4609c7934..00225f6f5c73e4a1fdd97fcc958a6e50b597512f 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -357,14 +357,22 @@ public abstract class PlayerList {

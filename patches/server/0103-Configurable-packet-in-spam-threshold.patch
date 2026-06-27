@@ -5,7 +5,7 @@ Subject: [PATCH] Configurable packet in spam threshold
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 801e1727bd291f647c91e2c325810ead070f3752..b5471f86e4c9b5167ac96eb7a114cde0f6a35a9e 100644
+index 19ff229f90d07447947afa8b4794b683feceb574..6a0e6697331732555f9e4e63e95dce0a2bfc1a85 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1529,13 +1529,14 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

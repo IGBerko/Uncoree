@@ -5,7 +5,7 @@ Subject: [PATCH] Add PlayerArmSwingEvent
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 75ff85e3710d5e70a32fe39e8469c1f169fd2d46..bce87f55ad85837a17f783b5341ef5b64ab0ede0 100644
+index 37a801668c2fa4e7eaf4839b2f69a92f9f91907f..de6b8af2f586469cd97ad796ee9a841a83f8f068 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -2328,7 +2328,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

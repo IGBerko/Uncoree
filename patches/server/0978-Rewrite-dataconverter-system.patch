@@ -24837,7 +24837,7 @@ index 6743dca44e6552ad39aca757a24f3c4df400d83d..eebaf98bc0fa4696af59b2a79563beb7
              NbtUtils.addCurrentDataVersion(nbttagcompound);
          }
 diff --git a/src/main/java/net/minecraft/world/level/chunk/storage/EntityStorage.java b/src/main/java/net/minecraft/world/level/chunk/storage/EntityStorage.java
-index 01e54bd6c8157bc5c20375180a29c62599d72a3b..0eaecd48f763d60e3bfe684fae1700c2ced78cc2 100644
+index dd5adf1833ec64f183505c6d8c165a129ed4ed36..3b842297774472af5999438e883c1cd262f3c286 100644
 --- a/src/main/java/net/minecraft/world/level/chunk/storage/EntityStorage.java
 +++ b/src/main/java/net/minecraft/world/level/chunk/storage/EntityStorage.java
 @@ -115,7 +115,7 @@ public class EntityStorage implements EntityPersistentStorage<Entity> {

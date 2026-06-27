@@ -5,7 +5,7 @@ Subject: [PATCH] Add ServerResourcesReloadedEvent
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 99ae9628d96d6d3e42cd038eb4a0d01237cc6b1b..46cc2649ca482bd2bda37247717d8476dbb76a34 100644
+index 70ae9d44dd860014fd9a599e3a4e4a3fe80068ff..23d68feaa060514e6582a9d47a9ca7db9421c29c 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -2036,7 +2036,13 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

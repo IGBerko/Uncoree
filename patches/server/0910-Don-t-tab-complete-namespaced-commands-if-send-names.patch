@@ -11,7 +11,7 @@ This patch prevents server from sending namespaced commands when player
 requests tab-complete only commands.
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 93f5ec2c48bf4bdd4afc1e07ffcf1a34387ce6ac..81bc1e1cf5cd77f09560dbd0c277f77670d6cc56 100644
+index 91e9e8a62ae25360ad82ab12ef07f8a51a2665ca..a580b36ae2dafc1b178fd2333afcc23e0691e5f2 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -792,6 +792,11 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

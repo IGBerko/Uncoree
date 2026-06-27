@@ -53,7 +53,7 @@ index 15a5059994371da4850adcf726034a715b80efba..af7cb518a32a4d550eae833fdd5bb17f
          event.getPlayer().getServer().getPluginManager().callEvent(event);
  
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 4cacf5cc0750f017824e9d8737d3c490324b49dd..fea2863dc00d9765b86ac4cf925ceaf0fbef7da3 100644
+index 01acf93115db41212adf703d44481f50c746a8fa..3d59c9f256f00c213af33c35cd6471a78b97c290 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -916,6 +916,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

@@ -267,7 +267,7 @@ index 329471af4f40e0a74612707cce96bb00819e6cf2..bc391d27399d8c22e78735ca39aa8ab4
          Main.LOGGER.info("Forcing world upgrade! {}", session.getLevelId()); // CraftBukkit
          WorldUpgrader worldupgrader = new WorldUpgrader(session, dataFixer, dimensionOptionsRegistry, eraseCache);
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index c8a2686f1e60a8c1fb56ce7b5d3e2ba62ec3a987..2c381ae8a604b9aee4613614593809f634aaa89d 100644
+index 54d6e197bd6357bf2d31d8d5d1cb3707d22ef03e..884c0e4f58f0e374c910bc0d8b5d3ab1b8ade226 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -584,11 +584,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

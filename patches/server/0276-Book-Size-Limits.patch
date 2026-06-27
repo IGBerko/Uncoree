@@ -6,7 +6,7 @@ Subject: [PATCH] Book Size Limits
 Puts some limits on the size of books.
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 358b6b493af3fcc52b274ccc43a18187b505e1f0..9084109acfa260110c6ccd3c563b8b6688ea7b74 100644
+index f7529016db5d6f933d8f44de07bbdb9e67040cb1..b42b429e318b9ee784847a1824157573df99f683 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1024,6 +1024,45 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

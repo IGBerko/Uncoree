@@ -131,7 +131,7 @@ index af7cb518a32a4d550eae833fdd5bb17fd4058717..40ff3090fb17fb0f01a9b52639fb783e
  
              if (commandnode2.canUse(source)) {
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 9084109acfa260110c6ccd3c563b8b6688ea7b74..7fc5078b0fff8746daf6d3ee873e4d85df702cf1 100644
+index b42b429e318b9ee784847a1824157573df99f683..9e7598a0cc3965e382ba13d7fd700585a4884a97 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -746,7 +746,14 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

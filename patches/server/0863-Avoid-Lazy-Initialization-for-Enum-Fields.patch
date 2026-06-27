@@ -7,7 +7,7 @@ This patch is meant to get rid of any instances of lazy initialization that Mine
 This has the possibility to create race condition issues, and generally don't make sense to be lazily done anyways.
 
 diff --git a/src/main/java/com/mojang/math/OctahedralGroup.java b/src/main/java/com/mojang/math/OctahedralGroup.java
-index 8af12b383bb80d1c0a12e1151030ab6e21c27e79..d2efe5e4f767f8316bc3915573bd1efcbcf20968 100644
+index 05d28a08c1fdf75221f5d774fe49d905840ae472..207f424b2bf5e0c48f33e4553c7c6019ef2dd009 100644
 --- a/src/main/java/com/mojang/math/OctahedralGroup.java
 +++ b/src/main/java/com/mojang/math/OctahedralGroup.java
 @@ -110,6 +110,7 @@ public enum OctahedralGroup implements StringRepresentable {

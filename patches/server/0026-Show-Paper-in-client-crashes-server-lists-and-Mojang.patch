@@ -6,7 +6,7 @@ Subject: [PATCH] Show 'Paper' in client crashes, server lists, and Mojang
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index dd93d4957459556a102b9bf712dd80cb69810cb7..b951659a8fae8929123be985d02e08f28bd1e49e 100644
+index c1f9acad1e97915dfad5fbc0ba2547853e3b37f1..01a1d2af6b4cf66cff8eb6d14116343a121deed2 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1615,7 +1615,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

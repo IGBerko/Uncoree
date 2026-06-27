@@ -154,7 +154,7 @@ index bb0a5e3cdfec18a71c30fde98d21affcd95a9885..3f4950e0c0525346a89c7402ea85edeb
  
      public SectionPos getLastSectionPos() {
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 57e7ce227666a2e273c9e61a102152efd2c0ebd9..7cd6d91fe154d29ec0b0fc0a5a50713bbc2c1c83 100644
+index 5d3f2bcdd830568b75ac05e32cec5b5cd72ce8c7..050d65afbe01d4e4d7521809f444d3137f31ffbf 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -871,7 +871,7 @@ public abstract class PlayerList {

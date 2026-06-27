@@ -19220,7 +19220,7 @@ index e890162e1cea3538ed7dea7b78ee2e5346a8ce7b..9baae5af750b46ededbd660d15934da7
          this.desiredChunksPerTick = Double.isNaN((double)desiredBatchSize) ? 0.01F : Mth.clamp(desiredBatchSize, 0.01F, 64.0F);
          if (this.unacknowledgedBatches == 0) {
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index d38fe02af4cc35ed5b22acec41bedb76151f8af5..4a569bf782bfdd870f32fe0ab5c3b8b86a07f218 100644
+index 00225f6f5c73e4a1fdd97fcc958a6e50b597512f..b28c9deb36adeae8a911459a90bbfadf9c1abe51 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -294,7 +294,7 @@ public abstract class PlayerList {

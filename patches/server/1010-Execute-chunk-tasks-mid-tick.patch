@@ -19,7 +19,7 @@ index 6b3cde6d4d1e63bec01f502f2027ee9fddac08aa..46449728f69ee7d4f78470f8da23c055
  
      private MinecraftTimings() {}
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 6454e139cc6322b23b9810cbd450aac5d7b3d942..55204f27d3633d0aef01ac2469925d02865ab2fe 100644
+index 9d3cf1a14259397f806c57baa223faa7ee9eaf6b..636ad032f9b6b20557327e7d0b0aefff7780d1f3 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1357,8 +1357,79 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

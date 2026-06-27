@@ -5,7 +5,7 @@ Subject: [PATCH] Fire event on GS4 query
 
 
 diff --git a/src/main/java/net/minecraft/server/rcon/thread/QueryThreadGs4.java b/src/main/java/net/minecraft/server/rcon/thread/QueryThreadGs4.java
-index 7db3cc76543c3e020de799dc844c616e1c027849..41c0eeba9743d7ce141e4e58f96a761948ae33d7 100644
+index f4596e2b82f4bc385b7460f143207c458f1f0162..0e0867d7add9a024bbe9471f8ff92bbb25996a3d 100644
 --- a/src/main/java/net/minecraft/server/rcon/thread/QueryThreadGs4.java
 +++ b/src/main/java/net/minecraft/server/rcon/thread/QueryThreadGs4.java
 @@ -106,13 +106,32 @@ public class QueryThreadGs4 extends GenericThread {

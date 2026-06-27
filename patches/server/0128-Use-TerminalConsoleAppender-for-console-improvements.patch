@@ -206,7 +206,7 @@ index 0000000000000000000000000000000000000000..8f07539a82f449ad217e316a7513a170
 +
 +}
 diff --git a/src/main/java/io/papermc/paper/adventure/PaperAdventure.java b/src/main/java/io/papermc/paper/adventure/PaperAdventure.java
-index 032d23ecda574ed1a3c740c16d13055f399bd6c4..cf5a4c142ed6d9ab4850373a9041bdc6af5a2a71 100644
+index 5bacfadf01777171e51858d450a68135d422bf0f..41a87166d453ea4977ff0c15dab94c93715ade46 100644
 --- a/src/main/java/io/papermc/paper/adventure/PaperAdventure.java
 +++ b/src/main/java/io/papermc/paper/adventure/PaperAdventure.java
 @@ -25,6 +25,7 @@ import net.kyori.adventure.text.flattener.ComponentFlattener;
@@ -250,7 +250,7 @@ index 8323f135d6bf2e1f12525e05094ffa3f2420e7e1..a143ea1e58464a3122fbd8ccafe417bd
      }
  }
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 48513e585ce02c301983adbe1224e95ff7f9a345..22b9d4bebee30877225b08b46cec6084b12a9c5a 100644
+index fa1a6c2f1c11506243cfc61b519bef578e5627fc..7e4fd9fa173b24261b88fb5e898c905721e69dca 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -155,7 +155,7 @@ import org.slf4j.Logger;

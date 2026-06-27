@@ -10,7 +10,7 @@ https://bugs.mojang.com/browse/MC-157464
 https://github.com/PaperMC/Paper/issues/8569
 
 diff --git a/src/main/java/net/minecraft/world/entity/ai/behavior/VillagerGoalPackages.java b/src/main/java/net/minecraft/world/entity/ai/behavior/VillagerGoalPackages.java
-index 28b255b425d2ac4d13b85a7fce67406ea3b6fdae..458cfece2c0ce94f0017aa94ed6f1a356861ec31 100644
+index 5feef31a37aa30a0fdabd14396f5cdb05ad63030..d2917f9b215919890f28b513601863ccaced17c7 100644
 --- a/src/main/java/net/minecraft/world/entity/ai/behavior/VillagerGoalPackages.java
 +++ b/src/main/java/net/minecraft/world/entity/ai/behavior/VillagerGoalPackages.java
 @@ -35,7 +35,7 @@ public class VillagerGoalPackages {

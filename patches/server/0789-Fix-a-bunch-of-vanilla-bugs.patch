@@ -173,7 +173,7 @@ index f3389dc345d8b6e5389ae37848d9b268d4bbad83..5d1b8bae981dc538ee1fe4fb993e44f2
              this.player.server.getPlayerList().broadcastAll(new ClientboundPlayerInfoUpdatePacket(ClientboundPlayerInfoUpdatePacket.Action.UPDATE_GAME_MODE, this.player), this.player); // CraftBukkit
              this.level.updateSleepingPlayerList();
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 6fbcea8fd32a425cab936330d5d9545782e03346..1478def0ba4bc02c1c466d80cc2b90919612c18a 100644
+index e1ad1a33b9af575d8934cc4f2e76364e8990299e..16296feb265a3fd644243850bcee03b002ba3076 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -710,8 +710,10 @@ public abstract class PlayerList {

@@ -5,7 +5,7 @@ Subject: [PATCH] Multiple Entries with Scoreboards
 
 
 diff --git a/src/main/java/net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket.java b/src/main/java/net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket.java
-index e9d03ebfbd02a46b0ba274be107e099cc24b59e3..c52b91f5a001924e7a15f246004b6dd294fa0aae 100644
+index 0f05f1c2a30fef68ae635f4a2476b8cd1b6a127d..3f9712a8da937b03b03f7124e0671eb6905a2b2f 100644
 --- a/src/main/java/net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket.java
 +++ b/src/main/java/net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket.java
 @@ -51,6 +51,12 @@ public class ClientboundSetPlayerTeamPacket implements Packet<ClientGamePacketLi

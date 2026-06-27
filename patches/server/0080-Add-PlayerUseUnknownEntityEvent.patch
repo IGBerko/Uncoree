@@ -28,7 +28,7 @@ index b1bc671490329379e0a61466c13ca88c49259721..3a377e887989f591c671fec312082552
 +    // Paper end - PlayerUseUnknownEntityEvent
  }
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 37cba1e693490e42908f45dc68e60ac3afebbb49..801e1727bd291f647c91e2c325810ead070f3752 100644
+index f7babb4883a45244dd07eab1e87cf5fd4df83d91..19ff229f90d07447947afa8b4794b683feceb574 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -2404,7 +2404,26 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

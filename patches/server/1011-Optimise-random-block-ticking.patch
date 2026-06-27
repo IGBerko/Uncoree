@@ -258,7 +258,7 @@ index 68648c5a5e3ff079f832092af0f2f801c42d1ede..8bafd5fd7499ba4a04bf706cfd1e1560
 +    // Paper end
  }
 diff --git a/src/main/java/net/minecraft/util/SimpleBitStorage.java b/src/main/java/net/minecraft/util/SimpleBitStorage.java
-index 236ce41328758cb173a239133073944adb484dd1..abef177f074706f13ae6acbcfe036fcaecf00cd6 100644
+index 9f438d9c6eb05e43d24e4af68188a3d4c46a938c..8d7d763bf51cac556057645e6169c9447993189b 100644
 --- a/src/main/java/net/minecraft/util/SimpleBitStorage.java
 +++ b/src/main/java/net/minecraft/util/SimpleBitStorage.java
 @@ -315,6 +315,28 @@ public class SimpleBitStorage implements BitStorage {

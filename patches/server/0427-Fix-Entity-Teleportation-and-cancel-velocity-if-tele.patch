@@ -9,7 +9,7 @@ as this is how Vanilla teleports entities.
 Cancel any pending motion when teleported.
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 789576f8b7b3001c243972b320b7dffbbf3baa5f..3b73565d295c09a5ab0d610338498f01c7b1520d 100644
+index 36ff9acf571d670fda225bce2f4ed16dc1d20fe3..07c5c01c2f5c18b1d6162275ca091b0ababd72c5 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -656,7 +656,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

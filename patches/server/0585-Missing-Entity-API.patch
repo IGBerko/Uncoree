@@ -113,7 +113,7 @@ index 0000000000000000000000000000000000000000..41bf71d116ffc5431586ce54abba7f8d
 +    }
 +}
 diff --git a/src/main/java/net/minecraft/world/entity/animal/AbstractSchoolingFish.java b/src/main/java/net/minecraft/world/entity/animal/AbstractSchoolingFish.java
-index eef7d260dcb9a9c8ea6efef3216d33c08e3ea287..79c79f825e4c9b748d54962d06356ef425359101 100644
+index 3982ddbd0fa133fa0ca0241c4fb68ce167ebcbed..59dbb4dd48f81cab5216d5d8edef6ccd6e7efd9e 100644
 --- a/src/main/java/net/minecraft/world/entity/animal/AbstractSchoolingFish.java
 +++ b/src/main/java/net/minecraft/world/entity/animal/AbstractSchoolingFish.java
 @@ -52,6 +52,7 @@ public abstract class AbstractSchoolingFish extends AbstractFish {

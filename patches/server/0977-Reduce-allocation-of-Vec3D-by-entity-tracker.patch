@@ -5,7 +5,7 @@ Subject: [PATCH] Reduce allocation of Vec3D by entity tracker
 
 
 diff --git a/src/main/java/net/minecraft/network/protocol/game/VecDeltaCodec.java b/src/main/java/net/minecraft/network/protocol/game/VecDeltaCodec.java
-index baacaa8fcefdee3c7eeebae1d3a365553e2dbac6..0d079f33c5cbc063081d5722c0823e332b448ea2 100644
+index a3d247c93ac1a2d872ff0e3841efc3d7b84fcbc1..23fe7c4c1844d321efed6b7b886c422761ad6594 100644
 --- a/src/main/java/net/minecraft/network/protocol/game/VecDeltaCodec.java
 +++ b/src/main/java/net/minecraft/network/protocol/game/VecDeltaCodec.java
 @@ -5,7 +5,7 @@ import org.jetbrains.annotations.VisibleForTesting;

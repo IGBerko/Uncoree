@@ -64,7 +64,7 @@ index 7bb08db97c324d13836303cc8a4623c71d6c8a2c..5e9045f7722481e1f83a3d36d7b3d86e
          // Paper end
          buf.writeComponent(this.text);
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 6f3c450cd03fa4848175cada63be2dcf5abe45ba..03dad5aa44d4484e9a3064279c867f009104a9b2 100644
+index 1d6176714b097d4ab74af345af319e325735c58f..5cff1571a4eb1af6c961a265051642234bf1b121 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 @@ -1,5 +1,6 @@

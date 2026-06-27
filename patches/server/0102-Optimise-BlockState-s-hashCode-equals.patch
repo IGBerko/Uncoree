@@ -23,7 +23,7 @@ index ee2f1bff22fed14cda434173dc6286e4d4520822..b63116b333b6e06494091a82588acfb6
              return true;
          } else {
 diff --git a/src/main/java/net/minecraft/world/level/block/state/properties/EnumProperty.java b/src/main/java/net/minecraft/world/level/block/state/properties/EnumProperty.java
-index bc7890e8ccfb133992605b06b37114424ccb093d..cd7efe4a09e114ab68a90365a6f5363a5c4c17a2 100644
+index f4d9856420a6e7e857fc9b9cb6182a54fe341568..3097298fe356df98967cf4bdeaaede69dfe8a441 100644
 --- a/src/main/java/net/minecraft/world/level/block/state/properties/EnumProperty.java
 +++ b/src/main/java/net/minecraft/world/level/block/state/properties/EnumProperty.java
 @@ -44,8 +44,7 @@ public class EnumProperty<T extends Enum<T> & StringRepresentable> extends Prope
@@ -51,7 +51,7 @@ index 3c590d400032d8266de63aae301fedbd83d37a1d..3a850321a4bcc68058483b5fd53e829c
              return true;
          } else {
 diff --git a/src/main/java/net/minecraft/world/level/block/state/properties/Property.java b/src/main/java/net/minecraft/world/level/block/state/properties/Property.java
-index ce06c1702e9ff2e966d94a0d622264e16ded493c..bad6c58b0adc1ca630d3e943a86a2bc66dd94c9f 100644
+index 7cbc5e6e75f389f47ef07045f9876cec192f14e4..9055f15af0cae55effa6942913a9d7edf3857e07 100644
 --- a/src/main/java/net/minecraft/world/level/block/state/properties/Property.java
 +++ b/src/main/java/net/minecraft/world/level/block/state/properties/Property.java
 @@ -70,7 +70,7 @@ public abstract class Property<T extends Comparable<T>> {

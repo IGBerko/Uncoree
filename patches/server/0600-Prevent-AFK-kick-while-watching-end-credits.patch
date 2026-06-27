@@ -5,7 +5,7 @@ Subject: [PATCH] Prevent AFK kick while watching end credits
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 42c24ed58fab0f7ff9f58b2a65818f45a5b7cc06..2941445ea453e2fb88ea8de38c24bf755b93936a 100644
+index cb7d038b902c326d2ebec61f1dc40849c3cfbc63..574efd531199332a36fb26c70cc44bd5a05ff37d 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -389,7 +389,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

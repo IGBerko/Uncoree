@@ -5,7 +5,7 @@ Subject: [PATCH] Don't ignore result of PlayerEditBookEvent
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index f455c7ab48accf581a8ecdbc78a12b055dbd19fa..0ff1e65df2b3c131ed65f8b769bbf369a76aa3d0 100644
+index 9f9ac6b67123339b77ff85830f7cf2419b0fc330..6225499d926c0d83ea1cfd07a0340677a05a64e1 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1187,7 +1187,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

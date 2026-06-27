@@ -18,7 +18,7 @@ index f767bc67fb2b63e0476771b7caabc702ce05c800..0f05f1c2a30fef68ae635f4a2476b8cd
              buf.writeComponent(this.playerPrefix);
              buf.writeComponent(this.playerSuffix);
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 72ddebd40c2b29e0c6e069d62ed206c29ad5fa6b..677ce578af9da4b512bad47fe54625305e99c7e4 100644
+index cc48cb8c4863db3cb2eb2b4317384fe7e4180ed9..e6f1a98d4239318944e1ed6128cf8493c795602b 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -622,6 +622,20 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

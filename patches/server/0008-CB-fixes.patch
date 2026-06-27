@@ -52,7 +52,7 @@ index b2f37e3caf305f7f2c19c59848717bf73bd2ef5d..87c8460324ff2d2a14e1404fcfa3adb2
  
      @Override
 diff --git a/src/main/java/net/minecraft/world/level/levelgen/structure/StructureCheck.java b/src/main/java/net/minecraft/world/level/levelgen/structure/StructureCheck.java
-index 8fa222759b8ada1674a7d3ae1c0cdf91bfd7f915..da919ad85ce06572f8e7e4c121a2c222f975c7f5 100644
+index 3f5bedc49f249888cf435f5511f5ce1da921910b..a63eaec77251a7f6660d17d7210c639b71751c45 100644
 --- a/src/main/java/net/minecraft/world/level/levelgen/structure/StructureCheck.java
 +++ b/src/main/java/net/minecraft/world/level/levelgen/structure/StructureCheck.java
 @@ -42,7 +42,7 @@ public class StructureCheck {

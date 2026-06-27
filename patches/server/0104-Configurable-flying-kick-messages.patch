@@ -5,7 +5,7 @@ Subject: [PATCH] Configurable flying kick messages
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index b5471f86e4c9b5167ac96eb7a114cde0f6a35a9e..69e525776d57b2fe80d8bb9e94e981e553f329a3 100644
+index 6a0e6697331732555f9e4e63e95dce0a2bfc1a85..76d3ecbe62775b09aca1306b1adab56a5c730162 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -338,7 +338,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

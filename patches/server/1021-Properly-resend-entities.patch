@@ -116,7 +116,7 @@ index 692a01b52a71e26887ee42cbd5fd64b0a81bfc99..ef3048a4748113538a0ee0af5b526b2c
          return enuminteractionresult;
          // CraftBukkit end
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index a5bee627cd01d42c01751fef79d90062cc0c1603..98496bcc7ab9adde3fdc8b2cd9eaeceee99e28b4 100644
+index d0ae2c485b0e37406633c79043bd833a8a6b3e2d..b8db3c3a5870e9d7dbba38caf7c9e1c1f3849bde 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1990,6 +1990,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl
@@ -137,7 +137,7 @@ index a5bee627cd01d42c01751fef79d90062cc0c1603..98496bcc7ab9adde3fdc8b2cd9eaecee
                              }
  
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 97b0119ac71284b3a223c089bec26d87a01d3b25..1e5f709115007ff19901c0a6c3cf884d9e4d3a6c 100644
+index 4b789815e0a08a3dade4cedb7ec2dd7230b7e912..f52e0282f4d1dd251d804012693447f9f47eefa3 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -391,7 +391,7 @@ public abstract class PlayerList {

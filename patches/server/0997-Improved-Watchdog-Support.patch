@@ -71,7 +71,7 @@ index 6f2452de76e8f5fcc1367066e0e753740764eb98..e047dee632022abfe05865d1e71838be
              cause = cause.getCause();
          }
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 2c381ae8a604b9aee4613614593809f634aaa89d..6454e139cc6322b23b9810cbd450aac5d7b3d942 100644
+index 884c0e4f58f0e374c910bc0d8b5d3ab1b8ade226..9d3cf1a14259397f806c57baa223faa7ee9eaf6b 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -296,7 +296,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -266,7 +266,7 @@ index 27546cdf3a4d6954e7b5639ec18fcf554be4d092..68d268b6fff126e8645b6deec3fb549e
      }
  
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 37245ff682837e7e8c9647f4afe30f0dd87cb384..594cb6ce4bfa6c42212000a1ed983ea95ee2c4bf 100644
+index 856d59a64433abcd8aea8a1a613c7fcda83dd3ab..2c9a56b0e2eb78d4ad78c5d990ad85e4e8bdbe40 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -613,7 +613,7 @@ public abstract class PlayerList {

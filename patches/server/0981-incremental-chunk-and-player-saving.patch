@@ -5,7 +5,7 @@ Subject: [PATCH] incremental chunk and player saving
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 56d579e64b367dd21b2909eb0dbc1d7686d0c3d0..c8a2686f1e60a8c1fb56ce7b5d3e2ba62ec3a987 100644
+index 03d566c3e6d7541487ea79ed868aa7334793df3b..54d6e197bd6357bf2d31d8d5d1cb3707d22ef03e 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -908,7 +908,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
@@ -130,7 +130,7 @@ index 18356db5d998dccb9e645a9ee0bebc5cbbfa5f7a..4a62c2937460dca9d938c40da47529e1
      private static final int NEUTRAL_MOB_DEATH_NOTIFICATION_RADII_Y = 10;
      private static final int FLY_STAT_RECORDING_SPEED = 25;
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 4a569bf782bfdd870f32fe0ab5c3b8b86a07f218..8a5f245fc98514b66216dde234650bfc0adc24b4 100644
+index b28c9deb36adeae8a911459a90bbfadf9c1abe51..1419228ac61903365f39ecdf530e7090cb11ca7f 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -577,6 +577,7 @@ public abstract class PlayerList {

@@ -5,7 +5,7 @@ Subject: [PATCH] Add slot sanity checks in container clicks
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 270a76e932b76105a8a986b71ac8da8096368c73..e7f51d24868038179b0882c0e2cd4ce1f4fb56b7 100644
+index 6349ac2f093c067311efac06dd84c92996b1c64a..33560f75dd76f946203faa34ca5d10f213cd62c9 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -2892,6 +2892,12 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

@@ -5,7 +5,7 @@ Subject: [PATCH] Limit recipe packets
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index e08c3e0d09896da60cbec7923882bc2263de1bae..5190939658fce990e166b7c4f5998dd030a156e8 100644
+index 26c9d483810c8679fb2eff42c9176b8037cd56f8..f66c6167f24941b9cfdf4479d6cfbffcc29a7ba6 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -257,6 +257,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

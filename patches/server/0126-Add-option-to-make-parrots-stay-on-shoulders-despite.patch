@@ -14,7 +14,7 @@ To be converted into a Paper-API event at some point in the future?
 public net.minecraft.world.entity.player.Player removeEntitiesOnShoulder()V
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 69e525776d57b2fe80d8bb9e94e981e553f329a3..00870f788b40fc0943ef54da1e84c6e357640a32 100644
+index 76d3ecbe62775b09aca1306b1adab56a5c730162..6162bc5d905505be2a3570cd52c7497c6136136a 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -2177,6 +2177,13 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

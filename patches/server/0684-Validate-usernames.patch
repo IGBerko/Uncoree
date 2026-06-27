@@ -26,7 +26,7 @@ index a7da99ac31bbcb8b6f1814a2d5509c7067aafb08..fb582acfe9e5cb68314ee39e1d54a550
          GameProfile gameprofile = this.server.getSingleplayerProfile();
  
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 7cd6d91fe154d29ec0b0fc0a5a50713bbc2c1c83..95ba9b3bf957e5f744e85b3834a50ee2eb925a70 100644
+index 050d65afbe01d4e4d7521809f444d3137f31ffbf..d4aa6b4a5d43347ef06611f9e8dc3ca92a1a0bbf 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -678,7 +678,7 @@ public abstract class PlayerList {

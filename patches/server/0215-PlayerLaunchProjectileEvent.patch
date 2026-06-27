@@ -150,7 +150,7 @@ index fe03ef2e400b246f7f3a9333506f22b63ae28690..ad147f392e7ef151d971d462431ab67d
          return InteractionResultHolder.sidedSuccess(itemStack, world.isClientSide());
      }
 diff --git a/src/main/java/net/minecraft/world/item/FireworkRocketItem.java b/src/main/java/net/minecraft/world/item/FireworkRocketItem.java
-index eb655eb01e4841ca163666f21dae00f0632a11e5..8a82b8bec014b70d672cfaae84510ed84fd2ea97 100644
+index a9f82e37c088c6f6ae2a049fcc7acea01b8802cd..e1c8b24a92ea63a645406522a3c2fb5efd87f01a 100644
 --- a/src/main/java/net/minecraft/world/item/FireworkRocketItem.java
 +++ b/src/main/java/net/minecraft/world/item/FireworkRocketItem.java
 @@ -54,8 +54,12 @@ public class FireworkRocketItem extends Item {

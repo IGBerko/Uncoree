@@ -5,7 +5,7 @@ Subject: [PATCH] Move range check for block placing up
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index c9a8d04d1485a9493f6353beb7998801e286923e..ba7f0f4e2840b88d8f53c5720752cfeed2493c49 100644
+index 77560a31fc90387efb14ae0432b7a6aafb8cab61..ffbd1d99f7f896eb2b0af04e8f344f7fa0dc09d7 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1738,6 +1738,11 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

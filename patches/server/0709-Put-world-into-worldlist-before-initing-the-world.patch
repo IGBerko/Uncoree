@@ -7,7 +7,7 @@ Some parts of legacy conversion will need the overworld
 to get the legacy structure data storage
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 5b4e4459aa0bcdcf422f4191ebda7b42892d24e4..6a1102f68b0d9851069e08f67b27ada4f5013b5a 100644
+index 3255929982ef8e494d654144753a54d3a76229d9..041ba5fd85748b3183e12e7a8e10fca77eb35bf5 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -629,9 +629,10 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

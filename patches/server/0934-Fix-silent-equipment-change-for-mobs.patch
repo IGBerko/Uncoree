@@ -5,7 +5,7 @@ Subject: [PATCH] Fix silent equipment change for mobs
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/Mob.java b/src/main/java/net/minecraft/world/entity/Mob.java
-index d1833dcc92b1570e62a1941bbea6d66ff0b2ee5f..4e8aee81cb9e9fe4a4e5df4e228c0314b3af486b 100644
+index 5da7ffee71bf6d82a53b3c2f99e2bd898d0b1799..a59ee9d9b93404060e7a4702497071859daec6df 100644
 --- a/src/main/java/net/minecraft/world/entity/Mob.java
 +++ b/src/main/java/net/minecraft/world/entity/Mob.java
 @@ -1047,13 +1047,20 @@ public abstract class Mob extends LivingEntity implements Targeting {

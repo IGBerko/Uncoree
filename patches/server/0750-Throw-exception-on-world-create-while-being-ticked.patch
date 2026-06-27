@@ -7,7 +7,7 @@ There are no plans to support creating worlds while worlds are
 being ticked themselvess.
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 03fd35ee321c80ca674cea9eb366cffcc95bc893..c2326a72a038526c850b7820faa59618eba6eb88 100644
+index 88821acddee03c30c2630d3d6c39cc93702ed35b..2a96d128dd42b937b16e25274b39fb66c3d9a097 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -307,6 +307,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

@@ -5,7 +5,7 @@ Subject: [PATCH] Allow using signs inside spawn protection
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index e5113e86836f9c21570705b1ad312d76e8162e5f..f455c7ab48accf581a8ecdbc78a12b055dbd19fa 100644
+index a16751a23eb6aab8c25520127d4dbea0c991c32c..9f9ac6b67123339b77ff85830f7cf2419b0fc330 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1752,7 +1752,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

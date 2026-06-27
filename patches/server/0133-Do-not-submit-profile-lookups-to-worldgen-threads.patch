@@ -10,7 +10,7 @@ out due to a sync load, as the worldgen threads will be
 stalling on profile lookups.
 
 diff --git a/src/main/java/net/minecraft/Util.java b/src/main/java/net/minecraft/Util.java
-index 9a12feebbae4a9fdfd24214c2ffa61e717d6e358..1f1422a000eb9a0fb819f26d42b3f39ed683a8da 100644
+index bf17c2005aa71a627c93b3bbaa773a5902b897c1..3db6962b9f6f5da09694d57b7323c39f314b1327 100644
 --- a/src/main/java/net/minecraft/Util.java
 +++ b/src/main/java/net/minecraft/Util.java
 @@ -91,6 +91,22 @@ public class Util {

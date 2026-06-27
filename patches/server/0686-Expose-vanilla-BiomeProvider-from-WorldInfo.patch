@@ -5,7 +5,7 @@ Subject: [PATCH] Expose vanilla BiomeProvider from WorldInfo
 
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index fdda28bd6aa3a2d3079a383157b82ff825cc992d..82ee16f8efb5d32bf648d416010de557e2b90865 100644
+index 86283e9b7c3ad18e4deb8fcd3de624be92908c55..e367711dc3ef96280fe672f02e2ce99e43a5cd3c 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -597,7 +597,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

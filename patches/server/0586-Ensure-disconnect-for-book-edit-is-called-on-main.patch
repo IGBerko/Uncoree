@@ -5,7 +5,7 @@ Subject: [PATCH] Ensure disconnect for book edit is called on main
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 2e1a0b3d2dee21d6deba62ec710d92efdf33e1a6..75ff85e3710d5e70a32fe39e8469c1f169fd2d46 100644
+index 08f502452dc1c6ee83e04650b08a08e521c64144..37a801668c2fa4e7eaf4839b2f69a92f9f91907f 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -1096,7 +1096,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl

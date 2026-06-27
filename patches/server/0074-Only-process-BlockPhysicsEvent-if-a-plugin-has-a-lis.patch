@@ -6,7 +6,7 @@ Subject: [PATCH] Only process BlockPhysicsEvent if a plugin has a listener
 Saves on some object allocation and processing when no plugin listens to this
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 001592ec2ec34a744713d4d6c95a00955889facd..72ddebd40c2b29e0c6e069d62ed206c29ad5fa6b 100644
+index 638ab8ee2a44445baee91ee7e63b96ce6c098ad0..cc48cb8c4863db3cb2eb2b4317384fe7e4180ed9 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -1457,6 +1457,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa

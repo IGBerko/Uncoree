@@ -47,7 +47,7 @@ index 22a7f17180b76b6c3548d3b54ae8218a469401a8..c399625a342ffd61102bb96a97ac24b0
                          this.disconnect(Component.translatable("multiplayer.disconnect.server_shutdown"));
                      } catch (ClassCastException classcastexception) {
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index bfee202e1dc8ea875b9d2b4e8c3b0be3f6d94b26..d50d3bc9c0f573cdb43100bce6e3dbfe2102fc53 100644
+index ad2583c581e78e9cf352567b7dbde193319d4301..a540c744ca88884207c4520794091c01c1c9f50e 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -2013,7 +2013,7 @@ public abstract class MinecraftServer extends ReentrantBlockableEventLoop<TickTa
